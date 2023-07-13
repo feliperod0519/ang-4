@@ -1,0 +1,4 @@
+<p>{{'My Server:'}} id {{serverId}}</p> is {{getServerStatus()}}
+<p [ngStyle]="{backgroundColor:getColor()}" [ngClass]="{'on-line':serverStatus==='on-line'}">
+    {{'Server'}} id {{serverId}} is {{getServerStatus()}}
+</p>
